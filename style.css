@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 70px 300px 50px ;
+    color: white;
+    background-color: rgb(15, 95, 157);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.grid > div {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#um {
+    grid-column: 1/4;
+    background: linear-gradient(lightseagreen, 60%, lightsalmon);
+}
+
+#conteudo {
+    grid-column: 1/3;
+    background:linear-gradient(lightsalmon, 70%, lightseagreen)
+}
+
+#sidebar {
+    grid-column: ;
+    background:linear-gradient(lightsalmon, 70%, lightseagreen)
+}
+
+#parte1, #parte2, #parte3 {
+    grid-colum;
+    background: linear-gradient(to top , lightsalmon, 50%, lightseagreen);
+}
